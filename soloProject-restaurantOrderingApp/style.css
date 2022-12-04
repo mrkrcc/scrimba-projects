@@ -1,0 +1,218 @@
+body{
+    width: 600px;
+    margin: auto;
+}
+.container{
+    margin: 80px 40px;
+}
+
+
+.item{
+    display: flex;
+    border-bottom: 1px solid;
+    margin-bottom: 50px;
+    border-color: #8B8B8B;
+}
+
+.item-image{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 78.72px;
+    line-height: 98px;
+    margin: 0px;
+    color: #000000;
+
+    opacity: 0.72;
+}
+
+.contents{
+    margin: 0px 30px;
+}
+.item-name{
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 17px;
+    margin: 0px 0px 10px 0px;
+    /* identical to box height, or 60% */
+
+    color: #000000;
+}
+
+.item-ingredients{
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    color: #8B8B8B;
+}
+
+.item-price{
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    /* identical to box height, or 120% */
+
+    color: #000000;
+}
+
+.btn-add{
+    width: 50px;
+    height: 50px;
+    border-color: #DEDEDE;
+    border-radius: 50%;
+    background: transparent;
+    border-style: solid;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 24px;
+    margin-left: auto;
+    /* identical to box height, or 75% */
+    text-align: center;
+
+    color: #3C3C3C;
+}
+
+.orders{
+    border-bottom: 2px solid black;
+}
+
+.order{
+    display: flex;
+}
+
+.remove{
+    border: none;
+    background-color: white;
+    color: #3C3C3C;
+}
+
+.order-price{
+    margin-left: auto;
+}
+
+.bill{
+    display: flex;
+}
+
+.bill-price{
+    margin-left: auto;
+}
+
+.btn{
+    width: 100%;
+    background: #16DB99;
+    border: none;
+    color: white;
+    height: 60px;
+    padding: 0px;
+    margin: 20px 0px;
+    
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.payment{
+    display: none;
+    position: fixed;
+    border-radius: 3.89px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 524px;
+    height: 542.24px;
+    filter: drop-shadow(5.18654px 5.18654px 255.437px rgba(0, 0, 0, 0.5));
+    text-align: center;
+}
+
+.close-modal-btn-container{
+    text-align: right;
+    margin: 9px;
+}
+
+.modal-close-btn {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: black;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:active{
+    color: red;
+    cursor: pointer;
+}
+
+.modal-title{
+    margin: 25px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+input{
+    display: block;
+    margin: 25px auto;
+    width: 475.91px;
+    height: 71.3px;
+    border-radius: 3.89;
+    color: #757575;
+    padding: 0px 25px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.btn-pay{
+    width: 475.91px;
+    height: 71.3px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.order-msg{
+    background-color: #ecfdf5;
+    vertical-align: middle;
+    text-align: center;
+    color: #065f46;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 3px;
+    font-weight: 17px;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
